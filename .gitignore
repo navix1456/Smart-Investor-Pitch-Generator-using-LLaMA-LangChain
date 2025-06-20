@@ -53,10 +53,3 @@ Icon?
 *.swo
 *.swn
 
-# Ignore uploads and assets (except screenshots)
-public/uploads/
-Assets/
-!Assets/1.png
-!Assets/2.png
-!Assets/3.png
-!Assets/4.png 
