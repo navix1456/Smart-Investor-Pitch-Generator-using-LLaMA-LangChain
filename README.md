@@ -14,7 +14,7 @@ An AI-powered Streamlit application that leverages LLaMA 3 and LangChain to gene
 - **Frontend:** Streamlit (Python)
 - **Backend:** FastAPI (Python), LangChain, LLaMA 3 (Together.ai), SerpAPI, Proxycurl
 
-[System Architecture & Workflow Diagram for AI Investor Pitch Generator](Assets/5.png)
+![System Architecture & Workflow Diagram for AI Investor Pitch Generator](Assets/5.png)
 
 
 ## Directory Structure
@@ -68,10 +68,10 @@ streamlit run app.py
 
 Below are screenshots of the app in action:
 
-[Step 1](Assets/1.png)
-[Step 2](Assets/2.png)
-[Step 3](Assets/3.png)
-[Step 4](Assets/4.png)
+![Step 1](Assets/1.png)
+![Step 2](Assets/2.png)
+![Step 3](Assets/3.png)
+![Step 4](Assets/4.png)
 
 ## Credits
 - Built with [Streamlit](https://streamlit.io/), [FastAPI](https://fastapi.tiangolo.com/), [LangChain](https://www.langchain.com/), [Together.ai](https://www.together.ai/), [SerpAPI](https://serpapi.com/), and [Proxycurl](https://nubela.co/proxycurl).
