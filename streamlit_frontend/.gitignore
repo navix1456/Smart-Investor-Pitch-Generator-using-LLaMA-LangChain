@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.env
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local persistence files
+startup_info.json
+investor_results.json
+enriched_investors.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/ 
