@@ -1,6 +1,6 @@
 # Smart Investor Pitch Generator
 
-A Streamlit web app that helps founders generate personalized investor pitch emails using LLaMA 3, LangChain, and dynamic RAG with real-time investor data from Crunchbase and LinkedIn.
+An AI-powered Streamlit application that leverages LLaMA 3 and LangChain to generate highly personalized investor pitch emails and one-pagers for startups. The system intelligently analyzes your startup's niche, traction, and goals, and aligns them with investor interests and investment thesis. It features dynamic Retrieval-Augmented Generation (RAG) for real-time, custom investor insights using Crunchbase and LinkedIn data, ensuring every pitch is tailored for maximum impact.
 
 ## Features
 - Enter and manage multiple startup profiles
@@ -19,11 +19,12 @@ A Streamlit web app that helps founders generate personalized investor pitch ema
 ### 1. Clone the repository
 ```bash
 git clone <your-repo-url>
-cd investor-pitch-generator/streamlit_frontend
+cd investor-pitch-generator
 ```
 
 ### 2. Install dependencies
 ```bash
+cd streamlit_frontend
 pip install -r requirements.txt
 ```
 
@@ -58,10 +59,10 @@ streamlit run app.py
 
 Below are screenshots of the app in action:
 
-![Step 1](../Assets/1.png)
-![Step 2](../Assets/2.png)
-![Step 3](../Assets/3.png)
-![Step 4](../Assets/4.png)
+![Step 1](Assets/1.png)
+![Step 2](Assets/2.png)
+![Step 3](Assets/3.png)
+![Step 4](Assets/4.png)
 
 ## Credits
 - Built with [Streamlit](https://streamlit.io/), [FastAPI](https://fastapi.tiangolo.com/), [LangChain](https://www.langchain.com/), [Together.ai](https://www.together.ai/), [SerpAPI](https://serpapi.com/), and [Proxycurl](https://nubela.co/proxycurl).
